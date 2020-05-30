@@ -25,7 +25,7 @@ footer{
 
 
     body {
-        background-color: lightseagreen;
+        background-color: seagreen;
         color: #333333;
         font-family: arial;
         max-width: 650px;
@@ -81,7 +81,10 @@ footer{
         padding: 8px;
     }
 
-   .color{color:green}
-   .color1{color:green}
+   .color{color:white}
+   .color1{color:white}
+   .message{background-color: whitesmoke;}
 
-   
+   .output-border{border:1px solid black ;
+    border-bottom: 0;
+}
