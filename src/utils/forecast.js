@@ -8,7 +8,7 @@ const forecast=(latitude , longitude , callback)=>{
         else if(body.message){callback("Unable to find forecast for location" , undefined )}
         
         else
-        callback(undefined , /*response.body.weather[0].description +*/' It is currently '+body.main.temp +'.C'+' and speed of wind is '+body.wind.speed+' m/s' )
+        callback(undefined , /*response.body.weather[0].description +*/' It is currently '+body.main.temp +'.C'+' and speed of wind is '+body.wind.speed+' m/s.    ' + '\n' +"Status : "+body.weather[0].main+".   ~~ Description : "+body.weather[0].description+".  Pressure : "+body.main.pressure+' mbar'+".  Humidity : "+body.main.humidity+' %') 
             
     })
     }
