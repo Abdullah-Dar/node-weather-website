@@ -29,6 +29,7 @@ footer{
         color: #333333;
         font-family: arial;
         max-width: 650px;
+        min-width: 580px;
         margin: 0 auto;
         padding: 0 16px;
     
