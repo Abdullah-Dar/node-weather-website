@@ -30,6 +30,7 @@ footer{
         font-family: arial;
         max-width: 650px;
         min-width: 580px;
+        max-height: 200px;
         margin: 0 auto;
         padding: 0 16px;
     
